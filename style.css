@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+}
+
+p {
+  color : red ;
+   background-color: rgb(174, 207, 178);
+    animation-duration: 15s;
+    animation-name: slidein;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+    
